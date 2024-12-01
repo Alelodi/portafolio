@@ -1,0 +1,130 @@
+/* Reset y estilo base */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#reloj {
+  font-size: 18px;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Secciones */
+.seccion {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+#home {
+  background-color: #e0f7fa;
+}
+
+#sobre-mi {
+  background-color: #fff3e0;
+}
+
+#proyectos {
+  background-color: #e8f5e9;
+}
+
+#contacto {
+  background-color: #fce4ec;
+}
+
+.proyecto img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Estilo para el pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.proyecto {
+  text-align: center;
+}
+
+.proyecto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
