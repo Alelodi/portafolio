@@ -19,7 +19,7 @@ function diasDesdeFecha() {
     const fechaInicial = new Date('2024-09-16');
     const fechaHoy = new Date();
     const diferencia = Math.floor((fechaHoy - fechaInicial) / (1000 * 60 * 60 * 24));
-    console.log(`${diferencia} días han pasado desde el 16 de septiembre de 2024.`);
+    document.getElementById("diasdesde").textContent =`${diferencia} días han pasado desde el 16 de septiembre de 2024.`;
 }
 
 setInterval(mostrarReloj, 1000);
